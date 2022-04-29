@@ -1,0 +1,221 @@
+<doctype html>
+    <html>
+    <head>
+        <style>
+        /* Home Section */
+            #Home {
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(0,0,0,0.5);
+            }
+            #Home{
+                background: linear-gradient( rgba(0,0,0,0.65),
+                 rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0.0) ), url(./picture/joseph.jpg) no-repeat center center/cover;
+                height: 900px;
+                width: 100%;
+             }
+             .main{
+                 margin: 250px;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+            }
+            .headings{
+                     font-family: 'Times New Roman', Times, serif;
+                     font-size: 60px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(188, 66, 66);
+            }
+                 .btn{
+                     padding: 10px 35px;
+                     background-color: transparent;
+                     border: 1px solid wheat;
+                     color: rgb(253, 249, 249);
+                     outline: none;
+                     transition: .6s ease;
+                     }
+                 .btn:hover{
+                         cursor: pointer;
+                         background-color: rgb(132, 73, 73);
+                         box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+                         font-weight: bold;
+                         font-family: 'Courier New';
+
+                     }             
+                    .kk{
+                        font-family: Arial, Helvetica, sans-serif ;
+                     font-size: 20px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(244, 237, 237);
+                    }
+                    .pp{
+                        font-family: Arial, Helvetica, sans-serif ;
+                     font-size: 60px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(19, 18, 18);
+                    }
+            .text{
+                background-color:rgb(0, 0, 0);
+            }
+            ul li:hover{
+                background-color: rgb(0, 0, 0);
+            }
+            
+                .txt{
+                left: 10%;
+                top: 66%; 
+                width: 700px;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+            /* Navbar */ 
+            .navbar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(0,0,0,0.5);
+                position: sticky;
+                top: 0;
+            } 
+            .navbar ul{
+                display: flex;
+                list-style: none;
+                margin: 20px 0px;
+                
+            } 
+            .navbar ul li{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+            .navbar ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 8px 25px;
+                transition: all .5s ease;
+            }
+            /* About */
+            #about{
+                padding: 20px;
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                width: 575px;
+                /* height: 400px; */
+            }
+            #intro{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+            }
+            #intro h2{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+             
+             
+        
+    
+        </style>
+    </head>  
+    <body>
+        <nav class="navbar">
+        <ul type="none">
+        <li> <a href="#Home">Home</a></li>
+        <li> <a href="#About"> About</a></li>
+        <li> <a href="#Pricing"> Pricing</a></li>
+        <li> <a href="#Contact"> Contact</a></li>
+        <li> <a href="#Places"> Places</a></li>
+        
+    
+        </ul>
+        </nav>
+
+        <selection id="Home">
+            <div class="main">
+                <h3 class="headings">
+                    KK TRANSPORT SERVICE
+                    </h3> <P class="kk">
+                        YOUR SAFETY OUR UTMOST CONCERN 
+                    </P>
+                    <button class="btn">
+                        Book Your Ticket Here 
+                    </button>
+            </div>
+        </selection>
+
+            <selection id="About">
+                        <h1 class="headings"> ABOUT SERVICE </h1>
+                        <img src="picture/ata.jpg" alt="">
+                        <div id="intro">
+                             <h2>KK TRANSPORT SERVICE</h2>
+                             <p>
+                              Partners with Ministry of Transport and ADB Bank </p>
+                              <p>
+                                  Combining the best and Affordable Buses, Customer care and safety is our priority.also 
+                                  we give an Affordable prices to your Customers. we have trained and skilled Drivers who will 
+                                  take to your various place. again we offere delivery service to variousplaces.
+                              </p>
+                        </div>
+            </selection>
+
+        
+            <selection id="Pricing">
+                <div class="pp">
+                    <h4 class="headings">
+                  </h4> we deliver you to your various places with Affordable prices. The prices are as follows </p>
+                  TEMA TO KUMASI = 65cedis
+                 </p>
+                  ACCRA TO KUMASI = 80cedis
+                  </P>
+
+                    
+                </div>
+            </selection>
+
+
+            <selection id="Contact">
+                <div class="main">
+                    <h5 class="headings">
+                  </h5> You can contact our CEO on 0556419346
+                  </p>
+                        for more Enquires contact us on 
+                        0201764537 OR
+                        </p>
+                         0248123456
+                </div>
+            </selection>
+
+            <selection id="Places">
+                <div class="main">
+                    <h5 class="headings">
+                  </h5> You can locate us at Abrepo kumasi
+                  </p>
+                        Circle Accra 
+                    </p> 
+                         Tema community 25  
+                        
+                </div>
+            </selection>
+    
+    
+    </body>
+    </html>
